@@ -10,6 +10,7 @@ function App() {
   function handleTitle(title) {
     setCardList([...cardList, title]);
     setCardTitle(title);
+    console.log(cardTitle);
   }
   function handleDelete(title) {
     const iOfTitle = cardList.indexOf(title);

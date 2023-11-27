@@ -21,6 +21,7 @@ function List({ cardTitle, handleDelete }) {
       ...newCards.slice(iOfTitle + 1),
     ];
     setTimeout(() => setNewCards(removedI), 1);
+    console.log(draggedItem);
   };
 
   const handleDragOver = (e) => {
