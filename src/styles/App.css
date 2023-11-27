@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #943d73;
+}
+
+.lists {
+  display: flex;
+  align-items: flex-start;
+  overflow-x: auto;
+  /* scrollbar-width: thin; */
+}

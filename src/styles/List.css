@@ -1,0 +1,28 @@
+.list {
+  background-color: white;
+  width: 248px;
+  min-height: 2rem;
+  padding: 12px;
+  margin: 0.5rem;
+  border-radius: 6px;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+}
+
+.new-card {
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trash-can {
+  cursor: pointer;
+}
+
+hr {
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  color: white;
+}
+
+.new-board {
+  margin-left: 1rem;
+  border: none;
+  background-color: #ffffff00;
+}
+
+.board-select {
+  margin-left: 1rem;
+}

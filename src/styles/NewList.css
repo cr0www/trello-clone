@@ -1,0 +1,16 @@
+.new-list {
+  background-color: white;
+  width: 248px;
+  height: 2rem;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 6px;
+  margin: 0.5rem;
+  flex: 0 0 auto;
+}
+
+.new-list:hover {
+  cursor: pointer;
+}
